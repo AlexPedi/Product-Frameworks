@@ -4,9 +4,14 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-heroic-features/blob/master/LICENSE)
  */
 
-body {
-  padding-top: 54px;
+ a:focus {
+  outline: none;
 }
+
+
+/* body {
+  padding-top: 54px;
+} */
 
 @media (min-width: 992px) {
   body {
@@ -23,3 +28,14 @@ body {
 	font-size: 20px;
 }
 
+button {
+  font-weight: bold;
+}
+
+.btn-group {
+  padding-bottom: 20px;
+} */
+
+#items {
+  align: center;
+}

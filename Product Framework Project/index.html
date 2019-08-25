@@ -20,19 +20,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-MPGQL6X');</script>
 <!-- End Google Tag Manager -->
 
-<!-- Hotjar Tracking Code for www.product-frameworks.com -->
-<script>
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:726333,hjsv:6};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
-
-
 <script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us11.list-manage.com","uuid":"fef049f985307ac6cc0e44599","lid":"3c014b010e"}) })</script>
 
 <script type="text/javascript">
@@ -46,29 +33,30 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     <link rel="shortcut icon" type="image/png" href="https://s3.amazonaws.com/www.product-frameworks.com/images/frame.png" type="image" sizes="16x16">
     <!-- HTML Meta Tags -->
-<title>Product Frameworks - Techniques, frameworks and best practices for product managers</title>
+<title>Product Frameworks - Product management techniques and best practices</title>
 <meta name="description" content="A collection of frameworks and best practices for building great products">
 
 <!-- Google / Search Engine Tags -->
-<meta itemprop="name" content="Product Frameworks - Techniques, frameworks and best practices for product managers">
+<meta itemprop="name" content="Product Frameworks - Product management techniques and best practices">
 <meta itemprop="description" content="A collection of frameworks and best practices for building great products">
 <meta itemprop="image" content="https://s3.amazonaws.com/www.product-frameworks.com/images/logo.png">
 
 <!-- Facebook Meta Tags -->
 <meta property="og:url" content="https://www.product-frameworks.com">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Product Frameworks - Techniques, frameworks and best practices for product managers">
+<meta property="og:title" content="Product Frameworks - Product management techniques and best practices">
 <meta property="og:description" content="A collection of frameworks and best practices for building great products">
 <meta property="og:image" content="https://s3.amazonaws.com/www.product-frameworks.com/images/logo.png">
 
 <!-- Twitter Meta Tags -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Product Frameworks - Techniques, frameworks and best practices for product managers">
+<meta name="twitter:title" content="Product Frameworks - Product management techniques and best practices">
 <meta name="twitter:description" content="A collection of frameworks and best practices for building great products">
 <meta name="twitter:image" content="https://s3.amazonaws.com/www.product-frameworks.com/images/logo.png">
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
 
     <!-- Custom styles for this template -->
     <link rel="stylesheet" type="text/css" href="product-framework.css">
@@ -105,15 +93,63 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <header class="jumbotron my-4">
         <h1 class="display-5">Frameworks for Product Managers</h1>
         <hr class="my-4">
-        <p class="lead">A collection of resources and techniques to help you create better products.</p>
+        <h2 class="lead">A collection of resources and techniques to help you create better products.</>
       </header>
-
+      
       <!-- Page Features -->
+      <div class="container-fluid d-none d-sm-block d-sm-none d-md-block">
+        <div id="items" class="btn-group">
+            <button type="button" class="btn btn-light active category-button" data-filter = "all" onclick="ga('send', 'event', 'filter', 'viewAll')">View All</button>
+            <button type="button" class="btn btn-light category-button" data-filter = "design">Design</button>
+            <button type="button" class="btn btn-light category-button" data-filter = "discovery">Discovery</button>
+            <button type="button" class="btn btn-light category-button" data-filter = "prioritize">Prioritization</button>
+            <button type="button" class="btn btn-light category-button" data-filter = "strategy">Strategy</button>
+        </div>
+      </div>
 
-      <h6>Recently Added</h6>
 
       <div class="row text-center">
-        <div class="col-lg-3 col-md-6 mb-4">
+
+        <div class="col-lg-3 col-md-6 mb-4 all strategy">
+          <div class="card">
+            <a href="Three-Horizons-Growth.html">
+              <img class="card-img-top" src="images/three_horizons.png" alt="Three Horizons Growth">
+                <div class="card-body">
+                  <h4 class="card-title">Three Horizons</h4>
+            </a>
+            <br>
+                <p class="card-text">By McKinsey & Company</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4 all design">
+          <div class="card">
+            <a href="Spotify-MVP.html">
+              <img class="card-img-top" src="images/MVP.png" alt="Spotify MVP">
+                <div class="card-body">
+                  <h4 class="card-title">Spotify MVP</h4>
+            </a>
+            <br>
+                <p class="card-text">By Henrik Kniberg</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4 all design">
+          <div class="card">
+            <a href="11-Star-Experience.html">
+              <img class="card-img-top" src="images/11star.png" alt="11 star experience">
+                <div class="card-body">
+                  <h4 class="card-title">11 Star Experience</h4>
+            </a>
+            <br>
+                <p class="card-text">By Airbnb</p>
+            </div>
+          </div>
+        </div>
+             
+        <div class="col-lg-3 col-md-6 mb-4 all prioritize">
            <div class="card">
               <a href="Assessing-Product-Opportunities.html">
                 <img class="card-img-top" src="images/product_opportunities.png" alt="assessing product opportunities">
@@ -125,7 +161,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
            </div>
           </div>
       
-        <div class="col-lg-3 col-md-6 mb-4">
+        <div class="col-lg-3 col-md-6 mb-4 all design">
           <div class="card">
             <a href="Design-Sprint.html">
             <img class="card-img-top" src="images/design_sprint.png" alt="Design Sprint">
@@ -138,7 +174,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
       </div>
 
-        <div class="col-lg-3 col-md-6 mb-4">
+        <div class="col-lg-3 col-md-6 mb-4 all discovery">
           <div class="card">
             <a href="Jobs-To-Be-Done.html">
             <img class="card-img-top" src="images/JTBD.png" alt="JTBD">
@@ -151,7 +187,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
       </div>
 
-      <div class="col-lg-3 col-md-6 mb-4">
+      <div class="col-lg-3 col-md-6 mb-4 all strategy">
         <div class="card">
           <a href="MuST.html">
           <img class="card-img-top" src="images/MuST.png" alt="MuST">
@@ -164,7 +200,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
       </div>
 
-        <div class="col-lg-3 col-md-6 mb-4">
+        <div class="col-lg-3 col-md-6 mb-4 all strategy">
           <div class="card">
             <a href="GLEe.html">
             <img class="card-img-top" src="images/GLEe.png" alt="GLEe">
@@ -177,7 +213,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-6 mb-4">
+        <div class="col-lg-3 col-md-6 mb-4 all prioritize">
           <div class="card">
             <a href="HIPE.html">
             <img class="card-img-top" src="images/HIPE.png" alt="HIPE">
@@ -190,7 +226,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
       </div>
 
-      <div class="col-lg-3 col-md-6 mb-4">
+      <div class="col-lg-3 col-md-6 mb-4 all prioritize">
           <div class="card">
             <a href="Moscow-Method.html">
             <img class="card-img-top" src="images/Moscow.png" alt="MoSCoW Method">
@@ -203,7 +239,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
       </div>
 
-      <div class="col-lg-3 col-md-6 mb-4">
+      <div class="col-lg-3 col-md-6 mb-4 all strategy">
           <div class="card">
             <a href="AARRR-Metrics.html">
             <img class="card-img-top" src="images/aarrr.png" alt="AARRR Metrics">
@@ -216,7 +252,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
       </div>
 
-      <div class="col-lg-3 col-md-6 mb-4">
+      <div class="col-lg-3 col-md-6 mb-4 all prioritize">
           <div class="card">
             <a href="TribeRank-Prioritization.html">
             <img class="card-img-top" src="images/TribeRank.png" alt="TribeRank">
@@ -228,7 +264,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
       </div>
 
-      <div class="col-lg-3 col-md-6 mb-4">
+      <div class="col-lg-3 col-md-6 mb-4 all discovery">
           <div class="card">
             <a href="Product-Kata.html">
             <img class="card-img-top" src="images/product_kata.png" alt="Product Kata">
@@ -241,7 +277,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
       </div>
 
-      <div class="col-lg-3 col-md-6 mb-4">
+      <div class="col-lg-3 col-md-6 mb-4 all discovery">
           <div class="card">
             <a href="Directed-Discovery.html">
             <img class="card-img-top" src="images/directed_discovery.png" alt="Directed Discovery">
@@ -254,7 +290,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
       </div>
 
-      <div class="col-lg-3 col-md-6 mb-4">
+      <div class="col-lg-3 col-md-6 mb-4 all prioritize">
           <div class="card">
             <a href="Poem-Framework.html">
             <img class="card-img-top" src="images/poem_framework.png" alt="POEM Framework">
@@ -266,7 +302,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
       </div>
 
-      <div class="col-lg-3 col-md-6 mb-4">
+      <div class="col-lg-3 col-md-6 mb-4 all design">
           <div class="card">
             <a href="Game-Thinking.html">
             <img class="card-img-top" src="images/game_thinking.png" alt="Game Thinking">
@@ -279,7 +315,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
       </div>
 
-      <div class="col-lg-3 col-md-6 mb-4">
+      <div class="col-lg-3 col-md-6 mb-4 all discovery">
           <div class="card">
             <a href="Opportunity-Solution-Tree.html">
             <img class="card-img-top" src="images/opportunity_solution_tree.png" alt="Opportunity Solution Tree">
@@ -291,19 +327,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
       </div>
 
-    <div class="col-lg-3 col-md-6 mb-4">
+    <div class="col-lg-3 col-md-6 mb-4 all design">
           <div class="card">
             <a href="Customer-Journey-Map.html">
             <img class="card-img-top" src="images/journey_map.png" alt="Customer Journey Map">
             <div class="card-body">
               <h4 class="card-title">Customer Journey Map</h4>
             </a>
-              <p class="card-text">By UX Mastery</p>
+              <p class="card-text">By UX Planet</p>
             </div>
           </div>
       </div>
 
-    <div class="col-lg-3 col-md-6 mb-4">
+    <div class="col-lg-3 col-md-6 mb-4 all design">
           <div class="card">
             <a href="Pretotyping.html">
             <img class="card-img-top" src="images/pretotyping.png" alt="Pretotyping">
@@ -316,7 +352,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
       </div>
 
-    <div class="col-lg-3 col-md-6 mb-4">
+    <div class="col-lg-3 col-md-6 mb-4 all discovery">
           <div class="card">
             <a href="Lean-Product-Playbook.html">
             <img class="card-img-top" src="images/lean_product_playbook.png" alt="Lean Product Playbook">
@@ -329,7 +365,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
 
 
-    <div class="col-lg-3 col-md-6 mb-4">
+    <div class="col-lg-3 col-md-6 mb-4 all discovery">
           <div class="card">
             <a href="Assumption-Mapping.html">
             <img class="card-img-top" src="images/assumption_mapping.png" alt="Assumption Mapping">
@@ -341,7 +377,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
         </div>
 
-    <div class="col-lg-3 col-md-6 mb-4">
+    <div class="col-lg-3 col-md-6 mb-4 all prioritize">
           <div class="card">
             <a href="Gusto-Product-Prioritization.html">
             <img class="card-img-top" src="images/Gusto.png" alt="Gusto Product Prioritization">
@@ -353,7 +389,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
         </div>
 
-    <div class="col-lg-3 col-md-6 mb-4">
+    <div class="col-lg-3 col-md-6 mb-4 all prioritze">
           <div class="card">
             <a href="Product-Development-Flow.html">
             <img class="card-img-top" src="images/Flow.png" alt="Product Development Flow">
@@ -365,7 +401,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
         </div>
 
-		<div class="col-lg-3 col-md-6 mb-4">
+		<div class="col-lg-3 col-md-6 mb-4 all discovery">
           <div class="card">
             <a href="Dual-Track-Agile.html">
             <img class="card-img-top" src="images/dual_track.png" alt="Dual Track Agile">
@@ -378,7 +414,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
         </div>
 
-      	 <div class="col-lg-3 col-md-6 mb-4">
+      	 <div class="col-lg-3 col-md-6 mb-4 all design">
           <div class="card">
             <a href="Lean-UX-Canvas.html">
             <img class="card-img-top" src="images/lean_ux.png" alt="Lean UX Canvas">
@@ -391,7 +427,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-6 mb-4">
+        <div class="col-lg-3 col-md-6 mb-4 all prioritize">
           <div class="card">
             <a href="Three-Feature-Buckets.html">
             <img class="card-img-top" src="images/3_buckets.png" alt="Three Feature Buckets">
@@ -403,7 +439,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-6 mb-4">
+        <div class="col-lg-3 col-md-6 mb-4 all discovery">
           <div class="card">
             <a href="Four-Fits-Growth.html">
             <img class="card-img-top" src="images/4_fits.png" alt="Four Fits Framework">
@@ -416,7 +452,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
 
 
-        <div class="col-lg-3 col-md-6 mb-4">
+        <div class="col-lg-3 col-md-6 mb-4 all design">
           <div class="card">
             <a href="Design-Thinking.html">
             <img class="card-img-top" src="images/design_thinking.png" alt="Design Thinking">
@@ -429,7 +465,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
         </div>
 
-         <div class="col-lg-3 col-md-6 mb-4">
+         <div class="col-lg-3 col-md-6 mb-4 all design">
           <div class="card">
             <a href="google-heart-framework.html">
             <img class="card-img-top" src="images/heart.png" alt="Heart Framework">
@@ -442,7 +478,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
         </div>
 
-          <div class="col-lg-3 col-md-6 mb-4">
+          <div class="col-lg-3 col-md-6 mb-4 all strategy">
           <div class="card">
             <a href="gist-planning.html">
             <img class="card-img-top" src="images/gist.png" alt="GIST Planning">
@@ -455,7 +491,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
         </div>
 
-         <div class="col-lg-3 col-md-6 mb-4">
+         <div class="col-lg-3 col-md-6 mb-4 all prioritize">
           <div class="card">
             <a href="kano-model.html">
             <img class="card-img-top" src="images/KanoModel.png" alt="Kano Model">
@@ -468,7 +504,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-6 mb-4">
+        <div class="col-lg-3 col-md-6 mb-4 all discovery">
           <div class="card">
             <a href="facebook-product-development.html">
             <img class="card-img-top" src="images/facebook.png" alt="Facebook Product Process">
@@ -480,7 +516,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
         </div>
 
-         <div class="col-lg-3 col-md-6 mb-4">
+         <div class="col-lg-3 col-md-6 mb-4 all strategy">
           <div class="card">
             <a href="hooked-model.html">
             <img class="card-img-top" src="images/hooked.png" alt="Hooked Model">
@@ -493,7 +529,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-6 mb-4">
+        <div class="col-lg-3 col-md-6 mb-4 all strategy">
           <div class="card">
             <a href="pragmatic-marketing-framework.html">
             <img class="card-img-top" src="images/pragmatic_marketing.png" alt="Pragmatic Marketing">
@@ -506,7 +542,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div> 
 
 
-   		  <div class="col-lg-3 col-md-6 mb-4">
+   		  <div class="col-lg-3 col-md-6 mb-4 all prioritize">
           <div class="card">
             <a href="pandora-product-development.html">
             <img class="card-img-top" src="images/Pandora.png" alt="Pandora Product Management">
@@ -518,7 +554,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
         </div>
 
-          <div class="col-lg-3 col-md-6 mb-4">
+          <div class="col-lg-3 col-md-6 mb-4 all discovery">
           <div class="card">
             <a href="GoGoVan-Product-Management.html">
             <img class="card-img-top" src="images/GoGoVan.png" alt="GOGOVAN Product Playbook">
@@ -531,7 +567,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
 
 
-      	  <div class="col-lg-3 col-md-6 mb-4">
+      	  <div class="col-lg-3 col-md-6 mb-4 all discovery">
           <div class="card">
             <a href="Amazon-Product-Management.html">
             <img class="card-img-top" src="images/amazon.png" alt="Amazon Working Backwards">
@@ -544,7 +580,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-6 mb-4">
+        <div class="col-lg-3 col-md-6 mb-4 all strategy">
           <div class="card">
             <a href="Yammer-Product-Process.html">
             <img class="card-img-top" src="images/yammer.png" alt="Yammer Product Process">
@@ -557,7 +593,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-6 mb-4">
+        <div class="col-lg-3 col-md-6 mb-4 all strategy">
           <div class="card">
             <a href="Radical-Product.html">
             <img class="card-img-top" src="images/radical_product.png" alt="Radical Product Canvas">
@@ -569,7 +605,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-6 mb-4">
+        <div class="col-lg-3 col-md-6 mb-4 all strategy">
           <div class="card">
             <a href="Outcome-Driven-Innovation.html">
             <img class="card-img-top" src="images/strategyn.png" alt="Outcome Driven Innovation">
@@ -581,7 +617,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-6 mb-4">
+        <div class="col-lg-3 col-md-6 mb-4 all prioritize">
           <div class="card">
             <a href="Responsive-Development.html">
             <img class="card-img-top" src="images/burndown.png" alt="Burndown Framework">
@@ -593,7 +629,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-6 mb-4">
+        <div class="col-lg-3 col-md-6 mb-4 all discovery">
           <div class="card">
             <a href="Typeform-Product-Playbook.html">
             <img class="card-img-top" src="images/typeform.png" alt="Typeform Product Framework">
@@ -605,7 +641,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-6 mb-4">
+        <div class="col-lg-3 col-md-6 mb-4 all discovery">
           <div class="card">
             <a href="Spotify-Product-Development.html">
             <img class="card-img-top" src="images/spotify.png" alt="Spotify Agile">
@@ -617,7 +653,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-6 mb-4">
+        <div class="col-lg-3 col-md-6 mb-4 all prioritize">
           <div class="card">
             <a href="Airbnb-Product-Development.html">
             <img class="card-img-top" src="images/airbnb.png" alt="Airbnb Product Framework">
@@ -629,7 +665,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
         </div>
 
-         <div class="col-lg-3 col-md-6 mb-4">
+         <div class="col-lg-3 col-md-6 mb-4 all discovery">
           <div class="card">
             <a href="Double-Diamond-Process.html">
             <img class="card-img-top" src="images/Double_Diamond.png" alt="Double Diamond Model">
@@ -641,7 +677,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-6 mb-4">
+        <div class="col-lg-3 col-md-6 mb-4 all discovery">
           <div class="card">
             <a href="Dropbox-Product-Management.html">
             <img class="card-img-top" src="images/Dropbox.png" alt="Dropbox Product Framework">
@@ -653,7 +689,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-6 mb-4">
+        <div class="col-lg-3 col-md-6 mb-4 all prioritize">
           <div class="card">
             <a href="Basecamp-Product-Cycles.html">
             <img class="card-img-top" src="images/Basecamp.png" alt="Basecamp product framework">
@@ -666,7 +702,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-6 mb-4">
+        <div class="col-lg-3 col-md-6 mb-4 all discovery">
           <div class="card">
              <a href="Intercom-Product-Management.html">
             <img class="card-img-top" src="images/intercom.png" alt="Intercom Product Framework">
@@ -678,7 +714,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
         </div>
 
-               <div class="col-lg-3 col-md-6 mb-4">
+               <div class="col-lg-3 col-md-6 mb-4 all prioritize">
           <div class="card">
             <a href="Asana-Product-Process.html">
             <img class="card-img-top" src="images/asana_1.png" alt="Asana Product Framework">
@@ -690,7 +726,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-6 mb-4">
+        <div class="col-lg-3 col-md-6 mb-4 all discovery">
           <div class="card">
             <a href="Lean-Canvas.html">
             <img class="card-img-top" src="images/leancanvas.png" alt="Lean Canvas Template">
@@ -703,7 +739,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-6 mb-4">
+        <div class="col-lg-3 col-md-6 mb-4 all prioritize">
           <div class="card">
             <a href="Scrum-Methodology.html">
             <img class="card-img-top" src="images/ScrumFramework.png" alt="Scrum Framework">
@@ -716,7 +752,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-6 mb-4">
+        <div class="col-lg-3 col-md-6 mb-4 all prioritize">
           <div class="card">
             <a href="Lean-Startup.html">
             <img class="card-img-top" src="images/lean_startup.png" alt="Lean Startup Framework">
@@ -774,20 +810,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </footer>
 
     <!-- Bootstrap core JavaScript -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    	<!-- jQuery library -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+      <script src="productFrameworks.js"></script>
+      <!-- Latest compiled JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script> -->
 
 <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us11.list-manage.com","uuid":"fef049f985307ac6cc0e44599","lid":"3c014b010e"}) })</script>
-
-<script>
-(function() {
-  var cx = '123:456'; // Insert your own Custom Search engine ID here
-  var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true;
-  gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
-})();
-</script>
 
   </body>
 
